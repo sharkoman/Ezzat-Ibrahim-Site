@@ -1,0 +1,1055 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"inputs	input - search"
+			],
+			[
+				"remove",
+				"removeClass〔function〕"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"bb",
+				"border-bottom: "
+			],
+			[
+				"transf",
+				"transform"
+			],
+			[
+				"label",
+				"label	<label>"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"fade",
+				"fadeOut〔function〕"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"transla",
+				"translateX"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"transform",
+				"transform-origin"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"ver",
+				"vertical"
+			],
+			[
+				"orgin",
+				"transform-origin"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"inclu",
+				"include	@include"
+			],
+			[
+				"men",
+				"menu-bg"
+			],
+			[
+				"color",
+				"color2"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"pt",
+				"padding-right"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"fon",
+				"open-fonts"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"alert",
+				"alert(${0:message})	Window"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"side",
+				"sideSubMenu-hover-bg"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"cla",
+				"class	Attr"
+			],
+			[
+				"ion-vi",
+				"ion-view	Ionic Extension"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"predictio",
+				"predictionList"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"came",
+				"cameraSuccess"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"id",
+				"idName"
+			],
+			[
+				"arc",
+				"archItems"
+			],
+			[
+				"href",
+				"href	Attr"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"an",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/_ezzat-style.scss",
+			"settings":
+			{
+				"buffer_size": 18542,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "brand-category.html",
+			"settings":
+			{
+				"buffer_size": 40905,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login-form.html",
+			"settings":
+			{
+				"buffer_size": 25716,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 35744,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 275.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Work_2/ezzat-ebrahim-site"
+	],
+	"file_history":
+	[
+		"/D/Work_2/ezzat-ebrahim-site/index.html",
+		"/D/Work_2/ezzat-ebrahim-site/js/app.js",
+		"/D/Work_2/ezzat-ebrahim-site/brand-category.html",
+		"/D/Work_2/ezzat-ebrahim-site/ezzat-ibrahim-project.sublime-project",
+		"/D/Work_2/ezzat-ebrahim-site/scss/_ezzat-style.scss",
+		"/D/Work_2/ezzat-ebrahim-site/gulpfile.js",
+		"/D/Work_2/ezzat-ebrahim-site/partials/mainSlider-tablet.html",
+		"/D/Work_2/ezzat-ebrahim-site/scss/_settings.scss",
+		"/D/Work_2/ezzat-ebrahim-site/scss/app.scss",
+		"/D/Work_2/ezzat-ebrahim-site/package.json",
+		"/C/Users/SHERIF/Downloads/Compressed/modules-nehal/add-book.html",
+		"/C/Users/SHERIF/Downloads/Compressed/modules-nehal/js/app.js",
+		"/C/Users/SHERIF/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Work/modules_nourhan_01_2015/scss/style.scss",
+		"/D/Work/modules_nourhan_01_2015/add-doctor.html",
+		"/D/Work/modules_nourhan_01_2015/doctor-form.html",
+		"/D/Work/modules_nourhan_01_2015/patient-list.html",
+		"/D/Work/modules_nourhan_01_2015/patient-view.html",
+		"/D/Work/modules_nourhan_01_2015/add-user.html",
+		"/D/Work/modules_nourhan_01_2015/manage.html",
+		"/D/Work/modules_nourhan_01_2015/add-book.html",
+		"/D/Work/modules_nourhan_01_2015/login.html",
+		"/D/Work/modules/scss/style.scss",
+		"/D/Work/modules/add-admin.html",
+		"/D/Work/modules/login.html",
+		"/D/Work/modules/scss/app.scss",
+		"/C/Users/SHERIF/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Work/modules/gulpfile.js",
+		"/C/Users/SHERIF/Downloads/Compressed/lcdsantos-jQuery-Selectric-0a5a942/public/themes/modern/selectric.css",
+		"/C/Users/SHERIF/Downloads/Compressed/lcdsantos-jQuery-Selectric-0a5a942/public/jquery.selectric.js",
+		"/C/Users/SHERIF/Downloads/Compressed/lcdsantos-jQuery-Selectric-0a5a942/public/style.css",
+		"/C/Users/SHERIF/Desktop/ionic projects/my-notes/www/js/app.js",
+		"/C/Users/SHERIF/Downloads/Compressed/lcdsantos-jQuery-Selectric-0a5a942/public/jquery.selectric.min.js",
+		"/C/Users/SHERIF/Downloads/style.css",
+		"/D/Work_2/ismaily-online/index.html",
+		"/D/Work_2/ismaily-online/news-preview.html",
+		"/D/Work_2/ismaily-online/scss/main.scss",
+		"/D/Work_2/ismaily-online/js/app.js",
+		"/D/Work_2/ismaily-online/videos-section.html",
+		"/D/Work_2/ismaily-online/leagues.html",
+		"/D/Work_2/ismaily-online/champions.html",
+		"/D/Work_2/ismaily-online/matches.html",
+		"/C/Users/SHERIF/AppData/Roaming/Sublime Text 3/Packages/User/placeholdit.sublime-snippet",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/index.html",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/scss/main.scss",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/scss/app.scss",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/js/app.js",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/bower_components/what-input/what-input.js",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/scss/_settings.scss",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/gulpfile.js",
+		"/C/Users/SHERIF/Desktop/ionic projects/ismaily-online/css/app.css",
+		"/D/Work/Projects_Modules/reports-form.html",
+		"/D/Work/Projects_Modules - Companies/Manage Store Customers.html",
+		"/D/Work/Projects_Modules - Companies/Manage CRM.html",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/index.html",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/_prepros/_prepros-style.scss",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/_prepros/_prepros-verticalSubMenu.js",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/modules/module-1.html",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/fonts/opensans_regular/stylesheet.css",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/fonts/opensans_bold/stylesheet.css",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/fonts/opensans_bold/OpenSans-Bold-webfont.woff",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/style.css",
+		"/C/Users/SHERIF/Downloads/Compressed/material.js",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/js/material.min.js",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/foundation.css",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/modules/module-2.html",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/icons-style/font-awesome.min.css",
+		"/C/Users/SHERIF/Downloads/Compressed/Projects_Modules/css/css/font-awesome.css",
+		"/C/Users/SHERIF/Downloads/Compressed/vertical-subMenu/_prepros/_prepros-style.scss",
+		"/C/Users/SHERIF/Downloads/Compressed/vertical-subMenu/index.html",
+		"/C/Users/SHERIF/Downloads/Compressed/vertical-subMenu/css/verical-subMenu.css",
+		"/C/Users/SHERIF/Desktop/Mega-Menu-Sharko/_prepros/pre-mega-menu.scss",
+		"/C/Users/SHERIF/Desktop/Mega-Menu-Sharko/index.html",
+		"/C/Users/SHERIF/Desktop/Mega-Menu-Sharko/_prepros/pre-mega-menu.js",
+		"/C/Users/SHERIF/Desktop/Mega-Menu-Sharko/_prepros/mega-menu.scss",
+		"/C/Users/SHERIF/Desktop/ionic projects/testIonic/www/index.html",
+		"/C/Users/SHERIF/Desktop/jet/demo.html",
+		"/C/Users/SHERIF/Desktop/ionic projects/testIonic/scss/ionic.app.scss",
+		"/C/Users/SHERIF/Desktop/ionic projects/testIonic/www/js/app.js",
+		"/C/Users/SHERIF/Desktop/ionic projects/testIonic/www/templates/login.html",
+		"/C/Users/SHERIF/Desktop/ionic projects/soundBoard/www/js/app.js",
+		"/C/Users/SHERIF/Desktop/ionic projects/soundBoard/www/index.html",
+		"/C/Users/SHERIF/Desktop/ionic projects/soundBoard/gulpfile.js",
+		"/C/Users/SHERIF/Desktop/8ball/www/js/app.js",
+		"/C/Users/SHERIF/Desktop/8ball/www/css/style.css",
+		"/C/Users/SHERIF/Desktop/8ball/www/index.html",
+		"/C/Users/SHERIF/Desktop/firstApp/www/index.html",
+		"/C/Users/SHERIF/Desktop/firstApp/www/js/app.js",
+		"/C/Users/SHERIF/Desktop/firstApp/www/templates/tabs.html",
+		"/C/Users/SHERIF/Desktop/firstApp/www/js/services.js",
+		"/C/Users/SHERIF/Desktop/firstApp/www/js/controllers.js",
+		"/C/Users/SHERIF/Desktop/firstApp/package.json",
+		"/C/Users/SHERIF/Desktop/firstApp/bower.json",
+		"/C/Users/SHERIF/Desktop/firstApp/scss/ionic.app.scss",
+		"/C/Users/SHERIF/Desktop/firstApp/gulpfile.js",
+		"/D/learning_gulp/_scss/scss_style.scss",
+		"/D/learning_gulp/css/scss_style.css",
+		"/D/learning_gulp/package.json",
+		"/D/learning_gulp/gulpfile.js",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/gulpfile.js",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/_prepros/prepros-ism-app.scss",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/preview.html",
+		"/C/Users/SHERIF/Downloads/Compressed/pizza-master/index.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/index.html",
+		"/C/Users/SHERIF/Desktop/pluscc.svg",
+		"/D/Work/othman/eagle-of-egypt.svg",
+		"/D/Work/Ismailia 2015/Mobile/myApp/www/index.html",
+		"/D/Work/Ismailia 2015/Mobile/myApp/www/js/index.js",
+		"/D/Work/Ismailia 2015/Mobile/myApp/plugins/mx.ferreyra.callnumber/www/CallNumber.js",
+		"/C/Users/SHERIF/Downloads/Compressed/css/foundation.css",
+		"/C/Users/SHERIF/Downloads/Compressed/index.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/_prepros/prepros-ism-app.js",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/js/ism-app.js",
+		"/D/Work/Ismailia 2015/Mobile/ismailia-gov/_jquery.mobile-1.4.5/demos/grids-buttons/index.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/index.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/_prepros/prepros-ism-app.scss",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/_prepros/ism-app.scss",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/_prepros/prepros-ism-app.js",
+		"/D/Lynda/Lynda.com - jQuery Mobile Essential Training/Exercise Files/Ch_1/first_jqmobile_finished.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/_jquery.mobile-1.4.5/jquery.mobile.theme-1.4.5.css",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/_jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.css",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/css/ism-app.css",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/js/ism-app.js",
+		"/D/Lynda/Lynda.com - jQuery Mobile Essential Training/Exercise Files/Ch_1/first_jqmobile_start.html",
+		"/D/Work/Ismailia 2015/Mobile/ismailia_mobile/jquery.mobile-1.4.5/demos/listview-autocomplete/index.html",
+		"/D/Work/Elmanara_Site/contact_us.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"offCanvasRight",
+			"certificate",
+			"filter",
+			"brandlist",
+			".dropdown-pane",
+			"dropdown-pane",
+			":?",
+			"login",
+			"offCanvasRight",
+			"780",
+			"700",
+			".brands-logos",
+			"cart",
+			"help",
+			"Captain",
+			"text",
+			"600",
+			"            \n",
+			"largeHeadForm",
+			"search",
+			"cart-link",
+			"largeHeadCart",
+			"slick",
+			"medium-4",
+			"subject",
+			"Home",
+			"360x360",
+			"600",
+			"450",
+			"://",
+			"slider",
+			"<img src=\"\"",
+			"$background",
+			"theme",
+			"Tue",
+			"Mon",
+			"Sun",
+			"9565486941657",
+			"Publisher",
+			"Author",
+			"login",
+			".doc-info",
+			"اهم",
+			"اخبار",
+			"expression",
+			"moreLeagues",
+			"<",
+			"m-item>div:nth-child(2)",
+			"                \n",
+			"leagueTitle",
+			"h1",
+			"odd",
+			"}\n",
+			"odd",
+			" large-expand",
+			"<div class=\"small-1 columns\"><span>1</span></i></div>",
+			"<div class=\"small-1 columns\"><span>3</span></i></div>",
+			"http",
+			"today",
+			"yasterday",
+			"Status",
+			"Absent",
+			" </",
+			"modul",
+			"module-viewer",
+			"$sideSubMenu-subBg",
+			"    \n",
+			"feat",
+			"$stateProvider",
+			"section",
+			"progress",
+			".ui-content",
+			"main-links",
+			"archive ",
+			"opacity",
+			"animate",
+			"title",
+			"arrow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<img src=\"img/sunglasses.jpg\"",
+			"<div class=\"small-1 columns\"><span class=\"m-results\">1</span></i></div>",
+			"<div class=\"small-1 columns\"><span class=\"m-results\">3</span></i></div>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/_ezzat-style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18216,
+								18216
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1455114276.86,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "brand-category.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17549,
+								17549
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1455114301.14,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "login-form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17584,
+								17584
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1455116374.37,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4265,
+								1719
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1455114378.59,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ezzat-ibrahim-project.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"app.js",
+				"js\\app.js"
+			],
+			[
+				"ezzatsc",
+				"scss\\_ezzat-style.scss"
+			],
+			[
+				"html",
+				"html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
