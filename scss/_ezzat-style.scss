@@ -915,7 +915,7 @@ footer.main-footer{
 
 // categories pages
 .innerPadding{
-  padding-top: 3em;
+  padding-top: 5em;
 }
 .brand-category{
 
@@ -1206,9 +1206,15 @@ table thead, table tfoot {
     }
 }
 .table-of-orders{
+  input[type="number"]{
+    width: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
   span.label{
     cursor: pointer;
-    tranition: all 0.5s;
+    transition: all 0.5s;
     &:hover{
       transform: scale(1.1);
     }
@@ -1227,5 +1233,43 @@ table thead, table tfoot {
   }
   strong{
     color: black;
+  }
+}
+.checkOut-aria{
+  padding-top: 1.5em;
+  margin-top: 1.5em;
+  border-top: 1px solid lightgray;
+}
+.accordion.show-data{
+  li{
+    &.is-active > a{
+      background: #F1F1F1;
+    }
+    a{
+      display: flex;
+    }
+    .accordion-title{
+      font-weight: bold;
+      color: black;
+      font-size: 1.1em;
+      i.fa{
+        width: 26px;
+      }
+    }
+    .ac-data{
+      min-width: 200px;
+      display: inline-block;
+    }
+    .label{
+      margin-right: 1em;
+    }
+    .data-view{
+      font-size: 0.7em;
+      color: gray;
+      width: 70%;
+      overflow: hidden;
+      display: inline-block;
+      font-weight: normal;
+    }
   }
 }
