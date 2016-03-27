@@ -10,7 +10,7 @@ var connect = require('gulp-connect');
 var del = require('del');
 var zip = require('gulp-zip');
 
-var projectName = 'library';
+var projectName = 'ezzat-ibrahim';
 
 var sassPaths = [
   'bower_components/foundation-sites/scss',
@@ -79,12 +79,12 @@ gulp.task('connect', function() {
 
 // Delete all files from dis folder
 gulp.task('clean', function () {
-  del(['dist']);
+  del(['dist/**/*']);
 });
 
 // package all files to dist folder
 gulp.task('build', ['clean'] ,function () {
-  return gulp.src(['css/*', 'img/*', 'js/*', 'favicon.ico', '*.html'], {base: './'})
+  return gulp.src(['css/**/*', 'img/**/*', 'js/**/*', 'favicon.ico', '*.html'], {base: './'})
         .pipe(gulp.dest('dist'));
 });
 

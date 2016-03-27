@@ -84,12 +84,7 @@ $(window).scroll(function(){
       $(this).css('display','none');
     } );
   });
-  $(".table-of-orders table").find("span.label").click(function () {
-    $(this).parents('tr').slideUp( function () {
-      $(this).css('display','none');
-    } );
-  });
-table-of-orders
+
 // Filters in mobile
 $("a#filterToggler").click(function () {
   if($("#categoryFilters").hasClass("opened")){
