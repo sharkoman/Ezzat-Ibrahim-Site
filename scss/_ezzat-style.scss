@@ -1276,3 +1276,47 @@ table thead, table tfoot {
 #card-data{
   display: none;
 }
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+  margin-bottom: 2em;
+  /* flip the pane when hovered */
+    &.hover .flipper {
+      transform: rotateY(180deg);
+    }
+
+  &, .front, .back {
+    width: 400px;
+    height: 245px;
+  }
+
+  /* flip speed goes here */
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+  }
+
+  /* hide back of pane during swap */
+  .front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+  }
+}

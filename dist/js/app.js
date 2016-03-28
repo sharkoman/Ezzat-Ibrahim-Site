@@ -1,14 +1,7 @@
 $(document).foundation();
 
 // smooth ankor scroll
-
 var body = $("body, html");
-
-// $("a[href*='#']").click(function(e){
-//   var href = $(this).attr('href');
-//   var sTop = $(href).scrollTop();
-//   body.animate({scrollTop: sTop}, 1000, 'swing');
-// });
 
 // nice scroll
 $("html").niceScroll();
@@ -69,13 +62,13 @@ $(window).scroll(function(){
       $(".sunglassSvgCont").addClass("sgl-animate");
   }else{
     $(".sunglassSvgCont").removeClass("sgl-animate");
-  }
+  };
 
   if(currentScrollFire >= 300 || currentScrollChr >= 300){
     $("header.large-screen-header").addClass("large-header-scrolled");
   }else{
     $("header.large-screen-header").removeClass("large-header-scrolled");
-  }
+  };
 });
 
 // Cart Checkout items
@@ -84,16 +77,34 @@ $(window).scroll(function(){
       $(this).css('display','none');
     } );
   });
-
+  $(".table-of-orders table").find("span.label").click(function () {
+    $(this).parents('tr').slideUp( function () {
+      $(this).css('display','none');
+    } );
+  });
+// table-of-orders
 // Filters in mobile
 $("a#filterToggler").click(function () {
   if($("#categoryFilters").hasClass("opened")){
     $("#categoryFilters").removeClass("opened");
   }else{
     $("#categoryFilters").addClass("opened");
-  }
+  };
 });
 
+// cardOptions
+$('label.pay-option').click(function () {
+  if($('input#visa-master').is(':checked')){
+    $("#card-data").css("display", "block");
+  } else{
+    $("#card-data").css("display", "none");
+  };
+});
+$("input#ccv").focus(function() {
+  $(".flip-container").addClass('hover');
+}).blur(function () {
+  $(".flip-container").removeClass('hover');
+});
 
 $('.product-images-slider').slick({
   slidesToShow: 1,
@@ -102,6 +113,8 @@ $('.product-images-slider').slick({
   asNavFor: '.product-slider-controller',
   fade: false
 });
+
+
 
 $('.product-slider-controller').slick({
   slidesToShow: 6,
@@ -112,7 +125,6 @@ $('.product-slider-controller').slick({
   focusOnSelect: true
 });
 
-
 // Preview Page Scripts
 $("img.zoomImage").elevateZoom({
     gallery:'zoomGallery',
@@ -121,6 +133,7 @@ $("img.zoomImage").elevateZoom({
     imageCrossfade: true,
     loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
 });
+
 $("img.zoomImage").click(function(e) {
     var ez = $('img.zoomImage').data('elevateZoom');
     $.fancybox(ez.getGalleryList());
@@ -134,6 +147,7 @@ $(".product-details .add").click(function (e) {
   inputValue = inputValue+1;
   $(".product-details input[type='number']").val(inputValue);
 });
+
 $(".product-details .minus").click(function (e) {
   e.preventDefault();
   var inputValue = Number($(".product-details input[type='number']").val());
@@ -181,3 +195,6 @@ labels.click(function(){
   .prevUntil().removeAttr("style").addClass("rankChecked");
 
 });
+
+
+//card-data:

@@ -99,7 +99,11 @@ $('label.pay-option').click(function () {
   } else{
     $("#card-data").css("display", "none");
   };
-
+});
+$("input#ccv").focus(function() {
+  $(".flip-container").addClass('hover');
+}).blur(function () {
+  $(".flip-container").removeClass('hover');
 });
 
 $('.product-images-slider').slick({
