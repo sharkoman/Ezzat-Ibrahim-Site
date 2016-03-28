@@ -430,8 +430,40 @@ Cart First Step
             <span class="label">3</span>
              Payment</a>
           <div class="accordion-content" data-tab-content>
-            I would start in the open state, due to using the `is-active` state class.
+            <form class="" action="index.html" method="post">
+              <div class="row">
+                <div class="small-12 column">
+                  <h5>Choose your payment method:</h5>
+                </div>
+                <div class="medium-6 column">
+                  <label for="delivery" class="pay-option">
+                    <input id="delivery" type="radio" name="payment" value="">
+                    <i class="fa fa-truck"></i> Cash on delivery <span class="label">+ EGP 10</span>
+                  </label>
+                </div>
+                <!-- m6 -->
+                <div class="medium-6 column">
+                  <label for="visa-master" class="pay-option">
+                    <input id="visa-master" type="radio" name="payment" value="">
+                    <i class="fa fa-cc-visa"></i> Visa Or Master Card
+                  </label>
+                  <div id="card-data" data-toggler="is-hidden">
+                    <label for="card-serial">
+                      Card Number
+                      <input type="number" id="card-serial" name="card-serial" value="">
+                    </label>
+                    <label for="ccv">
+                      Card ccv
+                      <input type="number" id="ccv" name="ccv" value="">
+                    </label>
+                  </div>
+                  <!-- card-data -->
+
+                </div>
+              </div>
+            </form>
           </div>
+          <!-- Payment -->
         </li>
         <!-- ... -->
       </ul>
