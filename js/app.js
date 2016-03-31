@@ -115,6 +115,17 @@ $('.product-images-slider').slick({
 });
 
 
+//  USER DASHBOURD
+$(".user-account").find(".user-data-option").each(function () {
+  $(this).find("a.edit").click(function () {
+    $(this).parents(".user-data-option").next(".editOption").toggleClass("active");
+  });
+});
+$(".editOption").find("a.cancel").click(function () {
+  $(this).parents(".editOption").toggleClass("active");
+});
+
+
 
 $('.product-slider-controller').slick({
   slidesToShow: 6,
@@ -195,6 +206,5 @@ labels.click(function(){
   .prevUntil().removeAttr("style").addClass("rankChecked");
 
 });
-
 
 //card-data:

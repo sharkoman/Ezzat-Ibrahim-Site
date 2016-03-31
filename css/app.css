@@ -5387,6 +5387,18 @@ footer.main-footer {
     display: block;
     font-size: .3em;
     font-weight: normal; }
+  .brand-category .brand-name span.avatar {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 0.5em;
+    box-shadow: 0 0 11px lightgray;
+    border: 2px solid #9C9C9C; }
+    .brand-category .brand-name span.avatar img {
+      width: 120px;
+      height: 120px; }
 
 .brand-category .brand-cat-logo {
   margin-bottom: 1em; }
@@ -5731,5 +5743,39 @@ table thead, table tfoot {
   .flip-container .back {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); }
+
+.user-data-option {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid lightgray; }
+  .user-data-option span {
+    padding: 0.5em;
+    line-height: 30px;
+    font-size: 0.85em; }
+  .user-data-option .button {
+    margin: 0; }
+  .user-data-option span:nth-child(1) {
+    width: 15%; }
+  .user-data-option span:nth-child(2) {
+    width: 75%;
+    width: 70%; }
+  .user-data-option span:nth-child(3) {
+    width: 10%;
+    width: 15%; }
+    .user-data-option span:nth-child(3) a {
+      display: block;
+      text-align: center; }
+
+.editOption {
+  background: #e0e0e0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-sizing: border-box; }
+  .editOption form {
+    padding: 1em; }
+  .editOption.active {
+    max-height: 500px; }
 
 /*# sourceMappingURL=app.css.map */

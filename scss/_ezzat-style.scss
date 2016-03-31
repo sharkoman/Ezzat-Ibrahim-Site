@@ -928,6 +928,20 @@ footer.main-footer{
       font-size: .3em;
       font-weight: normal;
     }
+    span.avatar{
+      display: block;
+      border-radius: 50%;
+      overflow: hidden;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 0.5em;
+      box-shadow: 0 0 11px lightgray;
+      border: 2px solid #9C9C9C;
+      img{
+        width: 120px;
+        height: 120px;
+      }
+    }
   }//brand-name
   .brand-cat-logo{
     margin-bottom: 1em;
@@ -1338,5 +1352,50 @@ table thead, table tfoot {
   /* back, initially hidden pane */
   .back {
     transform: rotateY(180deg);
+  }
+}
+
+.user-data-option{
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  span{
+    padding: 0.5em;
+    line-height: 30px;
+    font-size: 0.85em;
+  }
+  .button{
+    margin: 0;
+  }
+  span:nth-child(1){
+    width: 15%;
+  }
+  span:nth-child(2){
+    width: 75%;
+    @include breakpoint(small){
+      width:70%;
+    }
+  }
+  span:nth-child(3){
+    width: 10%;
+    @include breakpoint(small){
+      width:15%;
+    }
+    a{
+      display: block;
+      text-align: center
+    }
+  }
+}
+.editOption{
+  background: rgb(224, 224, 224);
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  form{
+    padding: 1em;
+  }
+  &.active{
+    max-height: 500px;
   }
 }
