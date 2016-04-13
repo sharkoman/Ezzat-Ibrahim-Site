@@ -21,6 +21,14 @@ figure{
   margin: 0;
 }
 
+.red{
+  color: $red;
+}
+
+.bold{
+  font-weight: bold;
+}
+
 .radius{ border-radius:3px;}
 
 .slick-next:before, .slick-prev:before{
@@ -1358,6 +1366,7 @@ table thead, table tfoot {
 .user-data-option{
   display: flex;
   border-bottom: 1px solid lightgray;
+  max-height: 47px;
   span{
     padding: 0.5em;
     line-height: 30px;
@@ -1365,6 +1374,12 @@ table thead, table tfoot {
   }
   .button{
     margin: 0;
+  }
+  .edit span{
+    color: white;
+    &:hover{
+      color: $red;
+    }
   }
   span:nth-child(1){
     width: 15%;
@@ -1386,6 +1401,7 @@ table thead, table tfoot {
     }
   }
 }
+
 .editOption{
   background: rgb(224, 224, 224);
   max-height: 0px;
@@ -1397,5 +1413,48 @@ table thead, table tfoot {
   }
   &.active{
     max-height: 500px;
+  }
+}
+.brand-category .brand-name .dashboard{
+  font-size: 0.75em;
+}
+.orders-table{
+  margin-top: 2em;
+  table{
+    font-size: 0.9em;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 39.9375em){
+  .reveal{
+    padding-top: 8em;
+  }
+}
+
+
+.ranks{
+  display: flex;
+  input[type=checkbox]{
+    visibility: hidden;
+    position: absolute;
+    left:-9999px;
+    top:-9999px;
+    width: 0;
+    height: 0;
+  }
+  label{
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 0.3em;
+    &.rankChecked{
+      color:gold !important;
+    }
+  }
+  .rateTitle{
+    font-size:0.85em;
+    color:gray;
+    display: inline-block;
+    padding: 0 0 0 0.7em;
   }
 }

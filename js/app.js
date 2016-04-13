@@ -208,3 +208,45 @@ labels.click(function(){
 });
 
 //card-data:
+
+// ======= Review Stars
+
+var labels = $(".ranks label");
+var labelsTitle = $(".ranks .rateTitle");
+
+labels.hover(function(){
+  $(this).css("color", "gold")
+    .prevUntil().css("color", "gold");
+    labelsTitle.html($(this).attr('data-rate'));
+
+}, function(){
+    $(this).css("color", "inherit").prevUntil().css("color", "inherit");
+    var checkedNum = $("#ranks label.checked").length;
+    if (checkedNum === 1){
+      labelsTitle.html( $("#ranks label.checked").attr("data-rate") );
+    }else{
+      labelsTitle.html("");
+    }
+
+});
+
+labels.click(function(){
+  var labelSelected = $(this);
+  // reset label class and input checkbox
+  labels.removeClass("rankChecked checked")
+    .find("input[type=checkbox]")
+    .removeAttr("checked");
+
+  // add checked when label clicked
+  labelSelected.find("input[type=checkbox]").attr("checked","checked")
+    .parent().addClass("checked");
+
+  // add rankChecked Class
+  labelSelected.addClass("rankChecked")
+    .removeAttr("style")
+    .prevUntil()
+    .removeAttr("style").addClass("rankChecked");
+
+});
+
+// ======== Review End
