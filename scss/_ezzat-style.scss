@@ -880,7 +880,7 @@ footer.main-footer{
   transition: all 0.6s ease;
   &.is-open{
     opacity: 1;
-    transform: translateY(0);    
+    transform: translateY(0);
   }
   .cart-item{
     position: relative;
@@ -1344,9 +1344,9 @@ table thead, table tfoot {
 	perspective: 1000;
   margin-bottom: 2em;
   height: 215px;
-  @include breakpoint(small){
+  @include breakpoint(small only){
     width: 100%;
-    height: 135px;
+    height: 165px;
   };
   /* flip the pane when hovered */
     &.hover .flipper {
@@ -1356,9 +1356,9 @@ table thead, table tfoot {
   &, .front, .back {
     width: 400px;
     height: 245px;
-    @include breakpoint(small){
+    @include breakpoint(small only){
       width: 100%;
-      height: 135px;
+      height: 165px;
     };
   }
 
@@ -1391,7 +1391,11 @@ table thead, table tfoot {
     transform: rotateY(180deg);
   }
 }
-
+.pay-option{
+  padding: 1rem;
+  background: #EFEFEF;
+  margin: 1em 0;
+}
 .user-data-option{
   display: flex;
   border-bottom: 1px solid lightgray;
