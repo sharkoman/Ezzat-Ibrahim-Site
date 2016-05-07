@@ -687,6 +687,12 @@ section.best-selling{
       border-radius: 3px;
       margin: 0;
     }
+    div{
+      width: 100%;
+    }
+    input[type="button"]{
+      margin: 0;
+    }
     a:first-child{
       margin-right: 5px;
     }

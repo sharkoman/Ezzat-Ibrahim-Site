@@ -4959,6 +4959,10 @@ section.best-selling {
     .item-glasses .buttons a {
       border-radius: 3px;
       margin: 0; }
+    .item-glasses .buttons div {
+      width: 100%; }
+    .item-glasses .buttons input[type="button"] {
+      margin: 0; }
     .item-glasses .buttons a:first-child {
       margin-right: 5px; }
     .item-glasses .buttons a:last-child {
