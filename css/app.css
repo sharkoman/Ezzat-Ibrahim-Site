@@ -5149,7 +5149,8 @@ section.best-selling {
       font-weight: 600; }
   .item-glasses .stars-rate {
     padding: 0 1em;
-    color: gold; }
+    color: gold;
+    height: 30px; }
     .item-glasses .stars-rate small {
       color: #171010;
       background: lightsteelblue;
@@ -5178,6 +5179,10 @@ section.best-selling {
     display: flex; }
     .item-glasses .buttons a {
       border-radius: 3px;
+      margin: 0; }
+    .item-glasses .buttons div {
+      width: 100%; }
+    .item-glasses .buttons input[type="button"] {
       margin: 0; }
     .item-glasses .buttons a:first-child {
       margin-right: 5px; }

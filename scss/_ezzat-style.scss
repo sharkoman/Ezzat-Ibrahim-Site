@@ -652,6 +652,7 @@ section.best-selling{
   .stars-rate{
     padding: 0 1em;
     color: gold;
+    height: 30px;
     small{
       color: #171010;
       background: lightsteelblue;
@@ -685,6 +686,12 @@ section.best-selling{
     display: flex;
     a{
       border-radius: 3px;
+      margin: 0;
+    }
+    div{
+      width: 100%;
+    }
+    input[type="button"]{
       margin: 0;
     }
     a:first-child{
